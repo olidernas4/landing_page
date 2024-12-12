@@ -9,12 +9,12 @@ const Header = () => (
                 <button 
                     className="navbar-toggler" 
                     type="button" 
-                    data-bs-toggle="collapse" 
-                    data-bs-target="#navbarNav" 
+                    data-bs-toggle="collapse" // data-bs-toggle y data-bs-target son atributos de Bootstrap
+                    data-bs-target="#navbarNav" // data-bs-toggle y data-bs-target son atributos de Bootstrap
                     aria-controls="navbarNav" 
                     aria-expanded="false" 
                     aria-label="Toggle navigation"
-                >
+                >// para que el botón de hamburguesa funcione, debes agregar los atributos data-bs-toggle y data-bs-target
                     <span className="navbar-toggler-icon"></span>
                 </button>
                 <div className="collapse navbar-collapse" id="navbarNav">

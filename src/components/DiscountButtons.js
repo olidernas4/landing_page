@@ -3,8 +3,8 @@ import { Modal, Button } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 const DiscountButtons = () => {
-  const [show, setShow] = useState(false);
-  const [modalInfo, setModalInfo] = useState('');
+  const [show, setShow] = useState(false);// sirve para mostrar el modal
+  const [modalInfo, setModalInfo] = useState('');// sirve para mostrar la informacion del modal
 
   const handleShow = (info) => {
     setModalInfo(info);
